@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@mixin center($width: null, $height: null) {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    @if not $width and not $height {
+       transform: translate(-50%, -50%);
+     } @else if $width and $height {
+       width: $width;
+       height: $height;
+       margin: -($width / 2) #{0 0} -($height / 2);
+     } @else if not $height {
+       width: $width;
+       margin-left: -($width / 2);
+       transform: translateY(-50%);
+     } @else {
+       height: $height;
+       margin-top: -($height / 2);
+       transform: translateX(-50%);
+     }
+  }
+
+body
+{
+ font-family: 'Roboto', sans-serif;
+ background-color: #000;
+ color: lighten(#333, 70%);
+ overflow: hidden;
+}
+
+.centered{
+  @include center;
+  .option{
+   font-size: 12px;
+  @include center($height: -70px);
+
+  }
+  .search{
+    cursor: pointer;
+    &:hover{
+      color: lighten(#333, 40%);
+    }
+  }
+  .btn{
+   display: inline-block;
+   color:#fff;
+   border:2px solid #fff;
+   border-radius: 2px;
+   font-size: 42px;
+   font-weight: normal;
+   width: 50vw;
+   line-height: 1.42857143;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   -ms-touch-action: manipulation;
+       touch-action: manipulation;
+   cursor: pointer;
+   -webkit-user-select: none;
+      -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+    background: none;
+
+   &:hover{
+     color: lighten(#333, 40%);
+     border:2px solid lighten(#333, 40%);
+   }
+  }
+
+}

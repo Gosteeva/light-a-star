@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #e6e6e6;
+  overflow: hidden;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered .option {
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: -70px;
+  margin-top: 35px;
+  transform: translateX(-50%);
+}
+
+.centered .search {
+  cursor: pointer;
+}
+
+.centered .search:hover {
+  color: #999999;
+}
+
+.centered .btn {
+  display: inline-block;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  font-size: 42px;
+  font-weight: normal;
+  width: 50vw;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: none;
+}
+
+.centered .btn:hover {
+  color: #999999;
+  border: 2px solid #999999;
+}
