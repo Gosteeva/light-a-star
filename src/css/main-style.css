@@ -3,7 +3,30 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #000;
   color: #e6e6e6;
-  overflow: hidden;
+}
+
+footer {
+  position: fixed;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 0px rgba(26, 26, 26, 0.7) inset;
+  -moz-box-shadow: 0 2px 0px rgba(26, 26, 26, 0.7) inset;
+  box-shadow: 0 2px 0px rgba(26, 26, 26, 0.7) inset;
+}
+
+.ukr {
+  display: inline;
+  float: right;
+  margin: 5px 5px 5px 5px;
+}
+
+.eng {
+  display: inline;
+  float: right;
+  margin: 5px 5px 5px 5px;
 }
 
 .centered {
@@ -32,6 +55,7 @@ body {
 }
 
 .centered .btn {
+  overflow: hidden;
   display: inline-block;
   color: #fff;
   border: 2px solid #fff;

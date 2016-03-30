@@ -20,12 +20,39 @@
      }
   }
 
+  @mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+
+        -webkit-box-shadow:$top $left $blur $color #{$inset};
+        -moz-box-shadow:$top $left $blur $color #{$inset};
+        box-shadow:$top $left $blur $color #{$inset};
+      }
+
 body
 {
  font-family: 'Roboto', sans-serif;
  background-color: #000;
  color: lighten(#333, 70%);
- overflow: hidden;
+}
+
+footer{
+  position: fixed;
+  display: block;;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  @include box-shadow(0, 2px, 0px, transparentize(lighten(#000, 10%), 0.3), inset);
+}
+
+.ukr{
+  display: inline;
+  float: right;
+  margin: 5px 5px 5px 5px;
+}
+.eng{
+  display: inline;
+  float: right;
+  margin: 5px 5px 5px 5px;
 }
 
 .centered{
@@ -42,6 +69,7 @@ body
     }
   }
   .btn{
+   overflow: hidden;
    display: inline-block;
    color:#fff;
    border:2px solid #fff;
@@ -67,5 +95,7 @@ body
      border:2px solid lighten(#333, 40%);
    }
   }
+
+
 
 }
