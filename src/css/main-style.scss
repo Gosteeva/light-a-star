@@ -27,75 +27,72 @@
         box-shadow:$top $left $blur $color #{$inset};
       }
 
-body
-{
+body {
  font-family: 'Roboto', sans-serif;
- background-color: #000;
+ background: url("./src/img/bg1.jpg");
  color: lighten(#333, 70%);
+ background-size: cover;
+ // background-position: center;
 }
 
-footer{
-  position: fixed;
-  display: block;;
-  bottom: 0;
-  left: 0;
-  height: 30px;
-  width: 100%;
-  @include box-shadow(0, 2px, 0px, transparentize(lighten(#000, 10%), 0.3), inset);
-}
 
-.ukr{
-  display: inline;
-  float: right;
-  margin: 5px 5px 5px 5px;
-}
-.eng{
-  display: inline;
-  float: right;
-  margin: 5px 5px 5px 5px;
-}
 
-.centered{
+.centered {
   @include center;
-  .option{
+  .option {
    font-size: 12px;
   @include center($height: -70px);
 
   }
-  .search{
+  .search {
     cursor: pointer;
-    &:hover{
+    &:hover {
       color: lighten(#333, 40%);
     }
   }
-  .btn{
-   overflow: hidden;
+  .btn {
+  //  overflow: hidden;
    display: inline-block;
    color:#fff;
-   border:2px solid #fff;
-   border-radius: 2px;
+  //  border:2px solid transparentize(#fff, 0.4);
+  //  border-radius: 2px;
+   border: 0px;
    font-size: 42px;
    font-weight: normal;
    width: 50vw;
-   line-height: 1.42857143;
+   line-height: 1.5;
    text-align: center;
-   white-space: nowrap;
+  //  white-space: nowrap;
    vertical-align: middle;
-   -ms-touch-action: manipulation;
-       touch-action: manipulation;
+   touch-action: manipulation;
    cursor: pointer;
-   -webkit-user-select: none;
-      -moz-user-select: none;
-       -ms-user-select: none;
-           user-select: none;
-    background: none;
-
-   &:hover{
-     color: lighten(#333, 40%);
-     border:2px solid lighten(#333, 40%);
+   user-select: none;
+   background:  transparentize(lighten(#000, 5%), 0.1);
+      &:hover {
+       color: lighten(#333, 40%);
+      //  border:2px solid lighten(#333, 40%);
    }
   }
+}
+footer {
+  position: fixed;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  background:  transparentize(lighten(#000, 10%), 0.3);
+  // @include box-shadow(0, 2px, 0px, transparentize(lighten(#000, 10%), 0.3), inset);
+}
 
+.ukr {
+  display: inline;
+  float: right;
+  margin: 5px;
+}
 
-
+.eng {
+  display: inline;
+  float: right;
+  margin: 5px;
 }
