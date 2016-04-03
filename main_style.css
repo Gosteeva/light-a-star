@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #e6e6e6;
+}
+
+footer {
+  position: fixed;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 0px rgba(26, 26, 26, 0.7) inset;
+  -moz-box-shadow: 0 2px 0px rgba(26, 26, 26, 0.7) inset;
+  box-shadow: 0 2px 0px rgba(26, 26, 26, 0.7) inset;
+}
+
+.ukr {
+  display: inline;
+  float: right;
+  margin: 5px 5px 5px 5px;
+}
+
+.eng {
+  display: inline;
+  float: right;
+  margin: 5px 5px 5px 5px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered .option {
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: -70px;
+  margin-top: 35px;
+  transform: translateX(-50%);
+}
+
+.centered .search {
+  cursor: pointer;
+}
+
+.centered .search:hover {
+  color: #999999;
+}
+
+.centered .btn {
+  overflow: hidden;
+  display: inline-block;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  font-size: 42px;
+  font-weight: normal;
+  width: 50vw;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: none;
+}
+
+.centered .btn:hover {
+  color: #999999;
+  border: 2px solid #999999;
+}
+.centered .search_field {
+  overflow: hidden;
+  display: inline-block;
+  color: #fff;
+  outline: none;
+  border: 0px solid #fff;
+  border-radius: 2px;
+  font-size: 42px;
+  font-weight: normal;
+  width: 47vw;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: none;
+}
