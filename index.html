@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>Light the star</title>
-  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-  <link rel="stylesheet" href="./src/css/main-style.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="./src/js/search-btn.js"></script>
-  <!--link rel="stylesheet" href="/src/css/bootstrap.css"-->
- </head>
- <body>
-   <!--кнопки-->
-    <div class="centered">
-    <button class="btn"> Light a star </button>
-    <p class="option">or <span class="search">search</span></p>
-    </div>
+   <head>
+        <meta charset="utf-8">
+        <title>Light the star</title>
 
-    <footer>
-      <p class="ukr">Ukr</p>
-      <p class="eng">Eng</p>
-    </footer>
- </body>
+        <!--styles-->
+        <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="./src/css/main-style.css">
+        <link rel="stylesheet" href="./src/css/bootstrap.css">
+
+
+      <!--scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="./src/js/search-btn.js"></script>
+        <script src="./src/js/modal-bootstrap.js"></script>
+    </head>
+
+
+   <body>
+
+     <!--buttons-->
+      <div class="centered">
+        <button class="btn"> Light a star </button>
+        <input class="search" placeholder="Search"> </input>
+        <p class="option">or
+          <span class="tg s-txt">search</span>
+          <span class="tg l-txt">light a star</span>
+        </p>
+      </div>
+
+      <!--footer-->
+      <footer>
+        <p class="footer-text">About us</p>
+        <p class="footer-text">Report a bug</p>
+        <img class="footer-img ukr" src="./src/img/ukr.png"></img>
+        <img class="footer-img eng" src="./src/img/eng.png"></img>
+      </footer>
+   </body>
 </html>

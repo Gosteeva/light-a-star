@@ -32,7 +32,6 @@ body {
  background: url("/src/img/bg1.jpg");
  color: lighten(#333, 70%);
  background-size: cover;
- // background-position: center;
 }
 
 
@@ -42,27 +41,31 @@ body {
   .option {
    font-size: 12px;
   @include center($height: -70px);
-
+  .s-txt{
+    display: inline-block;
   }
-  .search {
+  .l-txt{
+    display: none; 
+  }
+  }
+
+  .tg {
     cursor: pointer;
     &:hover {
       color: lighten(#333, 40%);
     }
   }
+
+
   .btn {
-  //  overflow: hidden;
    display: inline-block;
    color:#fff;
-  //  border:2px solid transparentize(#fff, 0.4);
-  //  border-radius: 2px;
    border: 0px;
    font-size: 42px;
    font-weight: normal;
    width: 50vw;
    line-height: 1.5;
    text-align: center;
-  //  white-space: nowrap;
    vertical-align: middle;
    touch-action: manipulation;
    cursor: pointer;
@@ -70,29 +73,47 @@ body {
    background:  transparentize(lighten(#000, 5%), 0.1);
       &:hover {
        color: lighten(#333, 40%);
-      //  border:2px solid lighten(#333, 40%);
-   }
+    }
   }
 }
+
+.search{
+  display: none;
+  color:#fff;
+  border: 0px;
+  font-size: 42px;
+  font-weight: normal;
+  width: 50vw;
+  line-height: 1.5;
+  text-align: left;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background:  transparentize(lighten(#000, 5%), 0.1);
+}
+
 footer {
   position: fixed;
-  display: block;
+  display: inline-block;
   bottom: 0;
   left: 0;
   height: 30px;
   width: 100%;
   background:  transparentize(lighten(#000, 10%), 0.3);
-  // @include box-shadow(0, 2px, 0px, transparentize(lighten(#000, 10%), 0.3), inset);
 }
 
-.ukr {
-  display: inline;
-  float: right;
+
+.footer-text{
+  float: left;
   margin: 5px;
+  font-size: 14px;
 }
 
-.eng {
-  display: inline;
+.footer-img{
   float: right;
   margin: 5px;
+  height: 20px;
+  width: 35px;
+  border-radius: 2px;
 }
