@@ -1,0 +1,30 @@
+footer{
+  position: fixed;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  height: $footer-height;
+  width: $footer-width;
+  background:  $footer-bg;
+}
+
+
+.footer-text{
+  float: left;
+  margin: $footer-margin;
+  font-size: $footer-text-size;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.footer-img{
+  float: right;
+  margin: $footer-margin;
+  height: $footer-img-height;
+  width: $footer-img-width;
+  border-radius: $footer-border-radius;
+  &:hover{
+    cursor: pointer;
+  }
+}

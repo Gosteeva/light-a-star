@@ -1,0 +1,59 @@
+//centered elements
+.centered{
+  @include center;
+  .option{
+    font-size: $font-size;
+    @include  center($height: -70px);
+  }
+  .s-txt{
+    display: inline-block;
+  }
+  .l-txt{
+    display: none;
+  }
+}
+
+.tg{
+  cursor: pointer;
+  &:hover{
+    color: $tg-hover-color;
+  }
+}
+
+//button
+
+.btn {
+ display: inline-block;
+ color: $btn-color;
+ border: $btn-border;
+ font-size: $btn-font-size;
+ font-weight: normal;
+ width: $btn-width;
+ line-height: $line-height;
+ text-align: center;
+ vertical-align: middle;
+ // touch-action: manipulation;
+ cursor: pointer;
+ user-select: none;
+ background:  $btn-bg;
+    &:hover {
+     color: $btn-hover-color;
+  }
+}
+
+.search{
+  display: none;
+  color: $search-color;
+  border: $search-border;
+  border-radius: $search-border-radius;
+  font-size: $search-font-size;
+  font-weight: normal;
+  width: $search-width;
+  line-height: $line-height;
+  text-align: left;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background: $search-bg;
+}

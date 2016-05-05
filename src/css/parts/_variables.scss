@@ -1,0 +1,36 @@
+
+//main
+$main-color: lighten(#333, 70%);
+$font-size: 12px;
+$line-height: 1.5;
+
+//tg
+$tg-hover-color: lighten(#333, 40%);
+
+//btn
+$btn-color: #fff;
+$btn-hover-color: lighten(#333, 40%);
+$btn-border: 0px;
+$btn-font-size: 42px;
+$btn-width: 30vw;
+$btn-bg: transparentize(lighten(#000, 5%), 0.1);
+
+//search field
+$search-color: $btn-color;
+$search-hover-color: $btn-hover-color;
+$search-border: 2px;
+$search-border-radius: 2px;
+$search-font-size: 32px;
+$search-width: 40vw;
+$search-bg: $btn-bg;
+
+
+//footer
+$footer-height: 30px;
+$footer-width: 100%;
+$footer-bg: transparentize(lighten(#000, 10%), 0.3);
+$footer-text-size: 14px;
+$footer-margin: 5px;
+$footer-img-height: 20px;
+$footer-img-width: 35px;
+$footer-border-radius: 2px;
