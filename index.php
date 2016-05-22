@@ -1,7 +1,4 @@
 
-
-<!DOCTYPE html>
-
 <?php
     include 'src/php/action.php';
 ?>
