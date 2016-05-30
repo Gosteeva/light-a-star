@@ -12,5 +12,10 @@
 
     	mysqli_close($dbconnect);
 	}
+<<<<<<< HEAD
 	
+=======
+
+
+>>>>>>> b7dde02e9e7e91a89fcad0713c8398bfb4059497
 ?>

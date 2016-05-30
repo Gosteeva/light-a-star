@@ -1,0 +1,68 @@
+.modal{
+  top: 10vw;
+}
+
+.modal-title{
+  color: $txt-color;
+  font-size: $mod-ttl-font-size;
+  text-align: center;
+}
+
+.input-mod{
+  display: block;
+  margin: $mod-input-margin;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+
+  font-size: $mod-input-font;
+  color: $mod-input-font-color;
+
+      &:focus{
+        border-bottom:2px solid $modal-sec-color;
+      }
+      &[placeholder]{
+        text-overflow:ellipsis;
+      }
+
+      &::-moz-placeholder {
+        text-overflow:ellipsis;
+      }
+
+      &:-moz-placeholder {
+        text-overflow:ellipsis;
+      }
+
+      &:-ms-input-placeholder {
+        text-overflow:ellipsis;
+      }
+
+      & .wish-txt{
+        width: 70%;
+        height: 10vw;
+      }
+}
+
+.btn-mod{
+  color: $btn-color;
+  border: $btn-border;
+  border-radius: $mod-btn-radius;
+  font-size: $mod-btn-font-size;
+  font-weight: normal;
+  width: $mod-btn-width;
+  line-height: $mod-line-height;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background:  $btn-bg;
+     &:hover {
+      color: $mod-hov-color;
+   }
+   }
+
+.btn-primary{
+    &:hover{
+      background-color: $modal-sec-color;
+     }
+}
