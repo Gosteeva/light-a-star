@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
   font-family: 'Raleway', sans-serif;
-  background: url("/src/img/bg1.jpg");
+  background: url("/light-a-star/src/img/bg1.jpg");
   color: #e6e6e6;
   background-size: cover;
 }
@@ -117,5 +117,41 @@ footer {
 .footer-img:hover {
   cursor: pointer;
 }
+.photo-img {
+  float: right;
+  margin: 5px;
+  height: 35px;
+  width: 40px;
+  border-radius: 100%;
+  align: right;
+}
 
+
+.searchresult {
+  display: none;
+  color: #fff;
+  border: 2px;
+  border-radius: 2px;
+  font-size: 32px;
+  font-weight: normal;
+  width: 40vw;
+  line-height: 1.6;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: rgba(13, 13, 13, 0.9);
+  position: relative;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
 /*# sourceMappingURL=main-style.css.map */

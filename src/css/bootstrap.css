@@ -9,9 +9,9 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-/*body {
+body {
   margin: 0;
-}*/
+}
 article,
 aside,
 details,
@@ -1081,13 +1081,13 @@ html {
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-/*body {
+body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-}*/
+}
 input,
 button,
 select,
@@ -3004,9 +3004,9 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  /*padding: 6px 12px;
+  padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 14px;*/
+  font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
@@ -3020,8 +3020,8 @@ select[multiple].input-lg {
       -ms-user-select: none;
           user-select: none;
   background-image: none;
-  /*border: 1px solid transparent;
-  border-radius: 4px;*/
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 .btn:focus,
 .btn:active:focus,
