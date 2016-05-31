@@ -1,11 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
   font-family: 'Raleway', sans-serif;
-<<<<<<< HEAD
+
   background: url("/light-a-star/src/img/bg1.jpg");
-=======
-  background: url("src/img/bg1.jpg");
->>>>>>> b7dde02e9e7e91a89fcad0713c8398bfb4059497
+
   color: #e6e6e6;
   background-size: cover;
 }
@@ -131,7 +129,7 @@ footer {
 }
 
 
-<<<<<<< HEAD
+
 .searchresult {
   display: none;
   color: #fff;
@@ -146,70 +144,6 @@ footer {
   left: 0;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
-=======
-.modal {
-  top: 10vw;
-}
-
-.modal-title {
-  color: #333;
-  font-size: 20px;
-  text-align: center;
-}
-
-.input-mod {
-  display: block;
-  margin: 5px;
-  border: none;
-  border-bottom: 1px solid #000;
-  outline: none;
-  font-size: 15px;
-  color: #1a1a1a;
-}
-
-.input-mod:focus {
-  border-bottom: 2px solid #878ed2;
-}
-
-.input-mod[placeholder] {
-  text-overflow: ellipsis;
-}
-
-.input-mod::-moz-placeholder {
-  text-overflow: ellipsis;
-}
-
-.input-mod:-moz-placeholder {
-  text-overflow: ellipsis;
-}
-
-.input-mod:-ms-input-placeholder {
-  text-overflow: ellipsis;
-}
-
-.input-mod .wish-txt {
-  width: 70%;
-  height: 10vw;
-}
-
-.btn-mod {
-  color: #fff;
-  border: 0px;
-  border-radius: 2px;
-  font-size: 15px;
-  font-weight: normal;
-  width: 65px;
-  line-height: 1.7;
-  text-align: center;
-  vertical-align: middle;
->>>>>>> b7dde02e9e7e91a89fcad0713c8398bfb4059497
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  background: rgba(13, 13, 13, 0.9);
-<<<<<<< HEAD
   position: relative;
   top: 60%;
   left: 50%;
@@ -217,16 +151,3 @@ footer {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-=======
-}
-
-.btn-mod:hover {
-  color: #333232;
-}
-
-.btn-primary:hover {
-  background-color: #878ed2;
-}
-
->>>>>>> b7dde02e9e7e91a89fcad0713c8398bfb4059497
-/*# sourceMappingURL=main-style.css.map */

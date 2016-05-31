@@ -24,7 +24,7 @@
 
 
   <!-- Modal -->
-  <div class="modal fade" role="dialog">
+  <div class="modal fade" role="dialog" id="aboutUs">
     <div class="modal-dialog">
     
       <!-- Modal content-->

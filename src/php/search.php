@@ -9,10 +9,7 @@
     $response = mysqli_query($dbconnect, $query_select);
 
     	if($response->num_rows > 0){
-        echo "<div><h1><table>
-              <tr><th> star_name </th>
-                  <th> massage </th>
-              </tr>";
+        echo "<div><h1><table>";
         while ($row = mysqli_fetch_assoc($response)){   
     
           echo' <tr> 
